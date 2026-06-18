@@ -78,11 +78,69 @@ export type Project = {
   image: string;
   year: string;
   kind: string;
+  link: string;
 };
+
+const PORTFOLIO = "https://sahilbajajkaportfolio.vercel.app/";
 
 export const PROJECTS: Project[] = [
   {
     index: "01",
+    title: "RepoSignal",
+    blurb:
+      "Read any codebase like a live signal. Paste a GitHub URL and it decodes the repo's structure in one pass — architecture diagram, schema points, API flow, folder map, and a learning roadmap.",
+    tags: ["Next.js", "AI", "DevTool"],
+    image: "/assets/githubreverser.png",
+    year: "2025",
+    kind: "Product",
+    link: "https://bajajgithubreverse.vercel.app/",
+  },
+  {
+    index: "02",
+    title: "CodeToResume",
+    blurb:
+      "Point it at a project and your code writes your resume. It parses your commits, stacks, and shipped work into a structured, export-ready resume — works with GitHub, GitLab, Bitbucket, or a .zip.",
+    tags: ["Next.js", "Git", "Resume"],
+    image: "/assets/codetoresume.png",
+    year: "2025",
+    kind: "Product",
+    link: "https://codetoresume.vercel.app/",
+  },
+  {
+    index: "03",
+    title: "ResumeTailor",
+    blurb:
+      "Rewrite your resume for the job in front of you. Paste a job description once and get an ATS-aligned resume — plus a LaTeX export and portfolio page, all from a single source of truth, in the browser.",
+    tags: ["Next.js", "AI", "ATS"],
+    image: "/assets/resumetailor.png",
+    year: "2025",
+    kind: "Product",
+    link: "https://bajajresumetailor.vercel.app/",
+  },
+  {
+    index: "04",
+    title: "TextToSQL",
+    blurb:
+      "Ask your database in plain English and read the SQL it writes. Schema-aware and read-only by design — every question becomes a single validated SELECT, run in a sandbox with results on screen.",
+    tags: ["Python", "AI", "SQL"],
+    image: "/assets/txttosql.png",
+    year: "2025",
+    kind: "Product",
+    link: "https://bajajtexttosql.vercel.app/",
+  },
+  {
+    index: "05",
+    title: "Favicon.OS",
+    blurb:
+      "A precision tool for pixel-perfect browser favicons. Drop a PNG, get eight sizes — client-side, no server, no signup. Brutalist mono UI: input, resize ×8, export.",
+    tags: ["React", "Canvas", "Tool"],
+    image: "/assets/facicon.png",
+    year: "2025",
+    kind: "Tool",
+    link: "https://favicongenerator-neon.vercel.app/",
+  },
+  {
+    index: "06",
     title: "AlgoAnalyzer",
     blurb:
       "A full-stack algorithm visualizer. Pick an algorithm, feed your input, and step through every operation while the exact line of code highlights in real time — in Java and C++.",
@@ -90,9 +148,10 @@ export const PROJECTS: Project[] = [
     image: "/assets/algo.png",
     year: "2025",
     kind: "Full-stack",
+    link: "https://algo-analyzer.vercel.app/",
   },
   {
-    index: "02",
+    index: "07",
     title: "SoberDev",
     blurb:
       "An agency-grade marketing experience engineered around motion. Precision meets raw creativity — pinned scrolls, split reveals, and a deliberate type system.",
@@ -100,9 +159,32 @@ export const PROJECTS: Project[] = [
     image: "/assets/sober.png",
     year: "2025",
     kind: "Brand site",
+    link: "https://www.soberdev.in/",
   },
   {
-    index: "03",
+    index: "08",
+    title: "Pi 3.14",
+    blurb:
+      "\"Where Developers Orbit Innovation\" — a community landing for a developer collective. Glowing cosmic hero, animated starfield, and event-led sections inviting devs to join the orbit.",
+    tags: ["React", "Motion", "Community"],
+    image: "/assets/pi.png",
+    year: "2025",
+    kind: "Brand site",
+    link: "https://picommunity.vercel.app/",
+  },
+  {
+    index: "09",
+    title: "Amrit Place",
+    blurb:
+      "\"Flavors That Stay\" — a warm, full-bleed site for an Indian restaurant. Cinematic candle-lit hero, table reservations, catering and gift cards, and a live Google-rating badge built to drive bookings.",
+    tags: ["React", "Tailwind", "Restaurant"],
+    image: "/assets/amritplace.png",
+    year: "2025",
+    kind: "Front-end",
+    link: PORTFOLIO,
+  },
+  {
+    index: "10",
     title: "DevCrafter",
     blurb:
       "A studio landing experience with a constellation hero and scroll-choreographed sections. Built to feel crafted, not templated.",
@@ -110,36 +192,18 @@ export const PROJECTS: Project[] = [
     image: "/assets/DevCrafter.png",
     year: "2025",
     kind: "Brand site",
+    link: PORTFOLIO,
   },
   {
-    index: "04",
-    title: "CodeToResume",
-    blurb:
-      "Turn a profile into a polished, recruiter-ready resume from configurable templates. A modern editor with live template properties and instant preview.",
-    tags: ["Next.js", "Tooling", "UX"],
-    image: "/assets/webpic.png",
-    year: "2025",
-    kind: "Product",
-  },
-  {
-    index: "05",
-    title: "Nike Store",
-    blurb:
-      "A high-fidelity commerce front-end clone — product storytelling, motion-led hero, and a clean, responsive catalog built for feel.",
-    tags: ["React", "Tailwind", "E-commerce"],
-    image: "/assets/Nike.png",
-    year: "2024",
-    kind: "Front-end",
-  },
-  {
-    index: "06",
+    index: "11",
     title: "Prerna",
     blurb:
-      "A purpose-built web platform delivering structured content with a calm, readable interface and a considered information architecture.",
+      "A polished site for Prerna Institution — NEET / JEE / NDA coaching. Calm editorial hero, course explorer, outcome stats, and trust badges over a considered information architecture.",
     tags: ["React", "Node.js", "Web app"],
     image: "/assets/Prerna.png",
     year: "2024",
     kind: "Web app",
+    link: PORTFOLIO,
   },
 ];
 

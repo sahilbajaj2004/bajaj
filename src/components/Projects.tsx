@@ -98,9 +98,12 @@ export default function Projects() {
           className="flex flex-col gap-12 px-[var(--gutter)] md:w-max md:flex-row md:gap-8 md:px-[8vw] md:pt-20"
         >
           {PROJECTS.map((p) => (
-            <article
+            <a
               key={p.title}
-              className="group relative w-full shrink-0 md:w-[46vw] lg:w-[40vw]"
+              href={p.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative block w-full shrink-0 md:w-[46vw] lg:w-[40vw]"
               data-cursor="view"
             >
               <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-bg-2">
@@ -143,7 +146,7 @@ export default function Projects() {
                   </span>
                 ))}
               </div>
-            </article>
+            </a>
           ))}
 
           {/* end card */}
