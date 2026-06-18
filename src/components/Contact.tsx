@@ -125,9 +125,7 @@ export default function Contact() {
         <p className="font-mono text-xs uppercase tracking-widest text-ink-faint">
           © {new Date().getFullYear()} Sahil Bajaj — {SITE.location}
         </p>
-        <p className="font-mono text-xs uppercase tracking-widest text-ink-faint">
-          Built with Next.js · GSAP · Lenis
-        </p>
+        
       </div>
     </footer>
   );
