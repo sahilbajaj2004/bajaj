@@ -7,8 +7,8 @@ export const SITE = {
   resume: "/assets/Sahil_Bajaj_Resume.pdf",
   audio: "/assets/bgaudio.mp3",
   socials: [
-    { label: "GitHub", href: "https://github.com/" },
-    { label: "LinkedIn", href: "https://linkedin.com/" },
+    { label: "GitHub", href: "https://github.com/sahilbajaj2004" },
+    { label: "LinkedIn", href: "https://linkedin.com/in/sahilbajaj2004" },
     { label: "Email", href: "mailto:sahilbajaj2004@gmail.com" },
   ],
 } as const;

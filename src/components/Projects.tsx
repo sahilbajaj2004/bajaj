@@ -155,9 +155,9 @@ export default function Projects() {
               + more on
               <br />
               <a
-                href="https://github.com/"
+                href="https://github.com/sahilbajaj2004"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="text-lime underline-offset-8 hover:underline"
                 data-cursor="open"
               >
