@@ -154,7 +154,7 @@ export default function Hero() {
           <div className="hero-portrait relative mx-auto w-full max-w-sm lg:mx-0">
             <div className="hero-portrait-inner relative aspect-[4/5] overflow-hidden rounded-2xl border border-line bg-bg-2">
               <Image
-                src="/assets/profile.jpg"
+                src="/assets/bajaj.jpg"
                 alt="Sahil Bajaj presenting at Bharat Shiksha Expo 2025"
                 fill
                 priority
@@ -163,7 +163,7 @@ export default function Hero() {
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg/90 to-transparent p-4">
                 <p className="font-mono text-[0.7rem] uppercase tracking-widest text-ink-soft">
-                  Bharat Shiksha Expo &rsquo;25 — keynote
+                  Hangama ho gaya &rsquo;26 — keynote
                 </p>
               </div>
             </div>
