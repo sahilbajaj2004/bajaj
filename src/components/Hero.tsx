@@ -90,7 +90,7 @@ export default function Hero() {
     >
       {/* ambient glow */}
       <div
-        className="pointer-events-none absolute -right-[10%] top-[8%] h-[42rem] w-[42rem] rounded-full opacity-50 blur-[120px]"
+        className="pointer-events-none absolute right-[-10%] top-[8%] h-168 w-2xl rounded-full opacity-50 blur-[120px]"
         style={{
           background:
             "radial-gradient(circle, oklch(0.72 0.18 124 / 0.35), transparent 70%)",
@@ -152,7 +152,7 @@ export default function Hero() {
 
           {/* portrait */}
           <div className="hero-portrait relative mx-auto w-full max-w-sm lg:mx-0">
-            <div className="hero-portrait-inner relative aspect-[4/5] overflow-hidden rounded-2xl border border-line bg-bg-2">
+            <div className="hero-portrait-inner relative aspect-4/5 overflow-hidden rounded-2xl border border-line bg-bg-2">
               <Image
                 src="/assets/bajaj.jpg"
                 alt="Sahil Bajaj presenting at Bharat Shiksha Expo 2025"
@@ -161,7 +161,7 @@ export default function Hero() {
                 sizes="(max-width: 1024px) 80vw, 30vw"
                 className="object-cover object-[35%_30%]"
               />
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-bg/90 to-transparent p-4">
+              <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-bg/90 to-transparent p-4">
                 <p className="font-mono text-[0.7rem] uppercase tracking-widest text-ink-soft">
                   Hangama ho gaya &rsquo;26 — keynote
                 </p>
