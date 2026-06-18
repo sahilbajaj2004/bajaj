@@ -100,19 +100,23 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* marquee strip */}
+      {/* marquee strip — two identical groups so -50% loops seamlessly */}
       <div className="relative mt-16 overflow-hidden border-y border-line py-4">
         <div
-          className="flex w-max gap-8 whitespace-nowrap"
-          style={{ animation: "marquee 28s linear infinite" }}
+          className="flex w-max will-change-transform"
+          style={{ animation: "marquee 30s linear infinite" }}
         >
-          {Array.from({ length: 8 }).map((_, i) => (
-            <span
-              key={i}
-              className="flex items-center gap-8 font-display text-xl font-semibold uppercase text-ink-soft"
-            >
-              Available for work <span className="text-lime">✦</span>
-            </span>
+          {[0, 1].map((g) => (
+            <div key={g} className="flex shrink-0 items-center gap-8 pr-8">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <span
+                  key={i}
+                  className="flex items-center gap-8 whitespace-nowrap font-display text-xl font-semibold uppercase text-ink-soft"
+                >
+                  Available for work <span className="text-lime">✦</span>
+                </span>
+              ))}
+            </div>
           ))}
         </div>
       </div>
