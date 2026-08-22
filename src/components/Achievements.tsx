@@ -46,6 +46,7 @@ export default function Achievements() {
                   alt={a.title}
                   fill
                   sizes="(max-width: 768px) 90vw, 45vw"
+                  loading="eager"
                   className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-bg via-bg/30 to-transparent" />

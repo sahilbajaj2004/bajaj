@@ -112,6 +112,7 @@ export default function Projects() {
                   alt={`${p.title} — project screenshot`}
                   fill
                   sizes="(max-width: 768px) 90vw, 45vw"
+                  loading="eager"
                   className="proj-img scale-[1.18] object-cover object-top transition-transform duration-700 group-hover:scale-[1.24]"
                 />
                 <span className="absolute left-4 top-4 rounded-full border border-line bg-bg/70 px-3 py-1 font-mono text-[0.7rem] uppercase tracking-widest text-ink backdrop-blur-md">
