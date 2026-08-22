@@ -13,6 +13,8 @@ const MANIFESTO =
 
 export default function About() {
   const root = useRef<HTMLElement>(null);
+  const manifesto = useRef<HTMLParagraphElement>(null);
+  const words = useRef<HTMLSpanElement[]>([]);
 
   useGSAP(
     () => {
@@ -20,18 +22,25 @@ export default function About() {
         "(prefers-reduced-motion: reduce)",
       ).matches;
 
-      if (!reduce) {
-        gsap.to(".word", {
-          color: "var(--ink)",
-          stagger: 0.4,
-          ease: "none",
-          scrollTrigger: {
-            trigger: ".manifesto",
-            start: "top 75%",
-            end: "bottom 55%",
-            scrub: true,
+      if (reduce) {
+        gsap.set(words.current, { color: "var(--ink)" });
+      } else {
+        gsap.fromTo(
+          words.current,
+          { color: "var(--ink-faint)" },
+          {
+            color: "var(--ink)",
+            stagger: 0.12,
+            ease: "none",
+            scrollTrigger: {
+              trigger: manifesto.current,
+              start: "top 80%",
+              end: "bottom 42%",
+              scrub: 0.5,
+              invalidateOnRefresh: true,
+            },
           },
-        });
+        );
       }
 
       gsap.from(".skill-group", {
@@ -58,8 +67,10 @@ export default function About() {
           {MANIFESTO.split(" ").map((w, i) => (
             <span
               key={i}
-              className="word"
-              style={{ color: "var(--ink-faint)" }}
+              ref={(element) => {
+                if (element) words.current[i] = element;
+              }}
+              className="word text-ink-faint"
             >
               {w}{" "}
             </span>
