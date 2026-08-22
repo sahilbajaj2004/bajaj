@@ -14,7 +14,7 @@ export const SITE = {
 } as const;
 
 export const INTRO =
-  "I build complete, real-world applications that actually solve problems — not just run in theory. A BCA student going deep on the MERN stack and Python, shipping front-end UI to back-end APIs to deployment.";
+  "I build complete, real-world applications that actually solve problems not just run in theory. A BCA student going deep on the MERN stack and Python, shipping front-end UI to back-end APIs to deployment.";
 
 export type Stat = {
   num?: number;
@@ -81,7 +81,7 @@ export type Project = {
   link: string;
 };
 
-const PORTFOLIO = "https://sahilbajajkaportfolio.vercel.app/";
+const PORTFOLIO = "https://sahilbajaj.dpdns.org/";
 
 export const PROJECTS: Project[] = [
   {
@@ -145,7 +145,7 @@ export const PROJECTS: Project[] = [
     blurb:
       "A full-stack algorithm visualizer. Pick an algorithm, feed your input, and step through every operation while the exact line of code highlights in real time — in Java and C++.",
     tags: ["React", "Express", "Visualizer"],
-    image: "/assets/algo.png",
+    image: "/assets/algoanalyzer.png",
     year: "2025",
     kind: "Full-stack",
     link: "https://algo-analyzer.vercel.app/",

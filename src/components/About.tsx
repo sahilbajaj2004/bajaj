@@ -9,29 +9,46 @@ import { SKILL_GROUPS, EDUCATION } from "@/lib/data";
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const MANIFESTO =
-  "I build complete, real-world applications that actually solve problems — not just run in theory. Front-end UI, back-end APIs, deployment. The whole thing, owned end to end.";
+  "I build complete, real-world applications that actually solve problems not just run in theory. Front-end UI, back-end APIs, deployment. The whole thing, owned end to end.";
 
 export default function About() {
   const root = useRef<HTMLElement>(null);
+  const charRefs = useRef<Array<HTMLSpanElement | null>>([]);
+  const chars = Array.from(MANIFESTO);
 
   useGSAP(
     () => {
+      const revealedChars = charRefs.current.filter(Boolean) as HTMLSpanElement[];
+      const manifesto = root.current?.querySelector(".manifesto");
+
+      if (!manifesto || !revealedChars.length) {
+        return;
+      }
+
       const reduce = window.matchMedia(
         "(prefers-reduced-motion: reduce)",
       ).matches;
 
+      gsap.set(revealedChars, { color: "var(--ink-faint)" });
+
       if (!reduce) {
-        gsap.to(".word", {
-          color: "var(--ink)",
-          stagger: 0.4,
-          ease: "none",
-          scrollTrigger: {
-            trigger: ".manifesto",
-            start: "top 75%",
-            end: "bottom 55%",
-            scrub: true,
+        gsap.fromTo(
+          revealedChars,
+          { color: "var(--ink-faint)" },
+          {
+            color: "var(--ink)",
+            stagger: 0.03,
+            ease: "none",
+            scrollTrigger: {
+              trigger: manifesto,
+              start: "top 80%",
+              end: "bottom 35%",
+              scrub: true,
+            },
           },
-        });
+        );
+      } else {
+        gsap.set(revealedChars, { color: "var(--ink)" });
       }
 
       gsap.from(".skill-group", {
@@ -55,13 +72,16 @@ export default function About() {
         </div>
 
         <p className="manifesto max-w-4xl font-display text-[clamp(1.6rem,4.2vw,3.1rem)] font-semibold leading-[1.15]">
-          {MANIFESTO.split(" ").map((w, i) => (
+          {chars.map((char, i) => (
             <span
-              key={i}
-              className="word"
+              key={`${char}-${i}`}
+              ref={(el) => {
+                charRefs.current[i] = el;
+              }}
+              className="char inline-block"
               style={{ color: "var(--ink-faint)" }}
             >
-              {w}{" "}
+              {char === " " ? "\u00A0" : char}
             </span>
           ))}
         </p>
