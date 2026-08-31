@@ -17,7 +17,7 @@ export default function FAQ() {
               Common questions, straight answers.
             </h2>
             <p className="mt-4 max-w-sm text-ink-soft">
-              Everything about who I am, what I build, and how to work with me —
+              Everything about who I am, what I build, and how to work with me -
               clearly stated for people and search engines alike.
             </p>
           </div>

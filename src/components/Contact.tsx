@@ -100,7 +100,7 @@ export default function Contact() {
         </div>
       </div>
 
-      {/* marquee strip — two identical groups so -50% loops seamlessly */}
+      {/* marquee strip - two identical groups so -50% loops seamlessly */}
       <div className="relative mt-16 overflow-hidden border-y border-line py-4">
         <div
           className="flex w-max will-change-transform"
@@ -123,7 +123,7 @@ export default function Contact() {
 
       <div className="shell flex flex-col items-center justify-between gap-3 py-7 sm:flex-row">
         <p className="font-mono text-xs uppercase tracking-widest text-ink-faint">
-          © {new Date().getFullYear()} Sahil Bajaj — {SITE.location}
+          © {new Date().getFullYear()} Sahil Bajaj - {SITE.location}
         </p>
         
       </div>

@@ -163,7 +163,7 @@ export default function Hero() {
               />
               <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-bg/90 to-transparent p-4">
                 <p className="font-mono text-[0.7rem] uppercase tracking-widest text-ink-soft">
-                  Hangama ho gaya &rsquo;26 — keynote
+                  Hangama ho gaya &rsquo;26 - keynote
                 </p>
               </div>
             </div>
@@ -173,7 +173,7 @@ export default function Hero() {
         {/* bottom row */}
         <div className="hero-fade flex flex-wrap items-end justify-between gap-6 border-t border-line pt-6">
           <p className="max-w-md text-pretty text-ink-soft">
-            I build complete, real-world apps that actually solve problems — UI
+            I build complete, real-world apps that actually solve problems - UI
             to APIs to deployment.
           </p>
           <a

@@ -71,7 +71,7 @@ export default function Projects() {
 
   return (
     <section id="work" ref={section} className="relative bg-bg py-20 md:py-0">
-      {/* heading — sits above the pinned track on desktop */}
+      {/* heading - sits above the pinned track on desktop */}
       <div className="shell pointer-events-none absolute inset-x-0 top-8 z-10 hidden items-end justify-between md:flex">
         <div>
           <span className="label">(Selected work)</span>
@@ -109,7 +109,7 @@ export default function Projects() {
               <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-bg-2">
                 <Image
                   src={p.image}
-                  alt={`${p.title} — project screenshot`}
+                  alt={`${p.title} - project screenshot`}
                   fill
                   sizes="(max-width: 768px) 90vw, 45vw"
                   loading="eager"

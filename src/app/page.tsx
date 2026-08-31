@@ -26,7 +26,7 @@ const structuredData = {
         image: `${siteUrl}/og-image.png`,
         jobTitle: "Full-Stack MERN & Python Developer",
         description:
-          "Full-stack MERN and Python developer from Delhi, India, building complete web applications end to end — React and Next.js front-ends, Node.js and Python APIs, MongoDB and deployment.",
+          "Full-stack MERN and Python developer from Delhi, India, building complete web applications end to end - React and Next.js front-ends, Node.js and Python APIs, MongoDB and deployment.",
         knowsAbout: [
           "MERN Stack Development",
           "Next.js Development",
@@ -128,7 +128,7 @@ const structuredData = {
           name: "Who is Sahil Bajaj?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Sahil Bajaj is a full-stack MERN and Python developer from Delhi, India. He builds complete web applications end to end — React and Next.js front-ends, Node.js and Express APIs, Python with Django, and MongoDB/MySQL databases — through to deployment.",
+            text: "Sahil Bajaj is a full-stack MERN and Python developer from Delhi, India. He builds complete web applications end to end - React and Next.js front-ends, Node.js and Express APIs, Python with Django, and MongoDB/MySQL databases - through to deployment.",
           },
         },
         {

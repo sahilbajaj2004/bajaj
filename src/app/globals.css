@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 /* ============================================================
-   SAHIL BAJAJ — design tokens
+   SAHIL BAJAJ - design tokens
    Strategy: COMMITTED dark. Warm near-black canvas carries the
    surface; one electric-lime accent does the talking. Mono for
    machine-voice labels, grotesque for display, Inter for prose.
    ============================================================ */
 :root {
   --ink: oklch(0.96 0.01 95); /* warm off-white text */
-  --ink-soft: oklch(0.79 0.012 95); /* secondary text — passes 4.5:1 on bg */
+  --ink-soft: oklch(0.79 0.012 95); /* secondary text - passes 4.5:1 on bg */
   --ink-faint: oklch(0.62 0.012 95); /* labels / meta */
 
   --bg: oklch(0.17 0.008 75); /* warm charcoal canvas */
@@ -57,7 +57,7 @@ html {
   -ms-overflow-style: none; /* IE/Edge */
 }
 
-/* hide native scrollbar — Lenis drives the scroll */
+/* hide native scrollbar - Lenis drives the scroll */
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   width: 0;

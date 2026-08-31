@@ -20,16 +20,16 @@ const mono = JetBrains_Mono({
 });
 
 const siteUrl = "https://sahilbajaj.tech";
-const title = "Sahil Bajaj — Full-Stack MERN & Python Developer in Delhi";
+const title = "Sahil Bajaj - Full-Stack MERN & Python Developer in Delhi";
 const description =
-  "Sahil Bajaj is a full-stack MERN and Python developer based in Delhi, India. He ships complete products — React & Next.js front-ends, Node.js & Django APIs, MongoDB and deployment — with experience at Razorse Software and 10+ shipped projects.";
+  "Sahil Bajaj is a full-stack MERN and Python developer based in Delhi, India. He ships complete products - React & Next.js front-ends, Node.js & Django APIs, MongoDB and deployment - with experience at Razorse Software and 10+ shipped projects.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   applicationName: "Sahil Bajaj",
   title: {
     default: title,
-    template: "%s — Sahil Bajaj",
+    template: "%s - Sahil Bajaj",
   },
   description,
   keywords: [
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1920,
         height: 768,
-        alt: "Sahil Bajaj — Full-Stack MERN & Python Developer Portfolio",
+        alt: "Sahil Bajaj - Full-Stack MERN & Python Developer Portfolio",
       },
     ],
   },

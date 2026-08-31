@@ -17,7 +17,7 @@ export const SITE = {
 export const FAQS = [
   {
     q: "Who is Sahil Bajaj?",
-    a: "Sahil Bajaj is a full-stack MERN and Python developer from Delhi, India. He builds complete web applications end to end — React and Next.js front-ends, Node.js and Express APIs, Python with Django, and MongoDB/MySQL databases — through to deployment.",
+    a: "Sahil Bajaj is a full-stack MERN and Python developer from Delhi, India. He builds complete web applications end to end - React and Next.js front-ends, Node.js and Express APIs, Python with Django, and MongoDB/MySQL databases - through to deployment.",
   },
   {
     q: "What technologies does Sahil Bajaj work with?",
@@ -45,7 +45,7 @@ export const INTRO =
   "I build complete, real-world applications that actually solve problems not just run in theory. A BCA student going deep on the MERN stack and Python, shipping front-end UI to back-end APIs to deployment.";
 
 export const ABOUT =
-  "Sahil Bajaj is a full-stack MERN and Python developer based in Delhi, India, currently pursuing his Bachelor of Computer Applications (BCA) at IME College, CCS University. He owns the full lifecycle of a product — designing and building React and Next.js front-ends, writing Node.js, Express, and Django APIs, modelling data in MongoDB and MySQL, and deploying with Docker and AWS. He has shipped 10+ projects, interned as a full-stack developer at Razorse Software, freelanced through Fiverr since 2024, and won the Bharat Shiksha Expo 2025 for an AI companion.";
+  "Sahil Bajaj is a full-stack MERN and Python developer based in Delhi, India, currently pursuing his Bachelor of Computer Applications (BCA) at IME College, CCS University. He owns the full lifecycle of a product - designing and building React and Next.js front-ends, writing Node.js, Express, and Django APIs, modelling data in MongoDB and MySQL, and deploying with Docker and AWS. He has shipped 10+ projects, interned as a full-stack developer at Razorse Software, freelanced through Fiverr since 2024, and won the Bharat Shiksha Expo 2025 for an AI companion.";
 
 export type Stat = {
   num?: number;
@@ -119,7 +119,7 @@ export const PROJECTS: Project[] = [
     index: "01",
     title: "RepoSignal",
     blurb:
-      "Read any codebase like a live signal. Paste a GitHub URL and it decodes the repo's structure in one pass — architecture diagram, schema points, API flow, folder map, and a learning roadmap.",
+      "Read any codebase like a live signal. Paste a GitHub URL and it decodes the repo's structure in one pass - architecture diagram, schema points, API flow, folder map, and a learning roadmap.",
     tags: ["Next.js", "AI", "DevTool"],
     image: "/assets/githubreverser.png",
     year: "2025",
@@ -130,7 +130,7 @@ export const PROJECTS: Project[] = [
     index: "02",
     title: "CodeToResume",
     blurb:
-      "Point it at a project and your code writes your resume. It parses your commits, stacks, and shipped work into a structured, export-ready resume — works with GitHub, GitLab, Bitbucket, or a .zip.",
+      "Point it at a project and your code writes your resume. It parses your commits, stacks, and shipped work into a structured, export-ready resume - works with GitHub, GitLab, Bitbucket, or a .zip.",
     tags: ["Next.js", "Git", "Resume"],
     image: "/assets/codetoresume.png",
     year: "2025",
@@ -141,7 +141,7 @@ export const PROJECTS: Project[] = [
     index: "03",
     title: "ResumeTailor",
     blurb:
-      "Rewrite your resume for the job in front of you. Paste a job description once and get an ATS-aligned resume — plus a LaTeX export and portfolio page, all from a single source of truth, in the browser.",
+      "Rewrite your resume for the job in front of you. Paste a job description once and get an ATS-aligned resume - plus a LaTeX export and portfolio page, all from a single source of truth, in the browser.",
     tags: ["Next.js", "AI", "ATS"],
     image: "/assets/resumetailor.png",
     year: "2025",
@@ -152,7 +152,7 @@ export const PROJECTS: Project[] = [
     index: "04",
     title: "TextToSQL",
     blurb:
-      "Ask your database in plain English and read the SQL it writes. Schema-aware and read-only by design — every question becomes a single validated SELECT, run in a sandbox with results on screen.",
+      "Ask your database in plain English and read the SQL it writes. Schema-aware and read-only by design - every question becomes a single validated SELECT, run in a sandbox with results on screen.",
     tags: ["Python", "AI", "SQL"],
     image: "/assets/txttosql.png",
     year: "2025",
@@ -163,7 +163,7 @@ export const PROJECTS: Project[] = [
     index: "05",
     title: "Favicon.OS",
     blurb:
-      "A precision tool for pixel-perfect browser favicons. Drop a PNG, get eight sizes — client-side, no server, no signup. Brutalist mono UI: input, resize ×8, export.",
+      "A precision tool for pixel-perfect browser favicons. Drop a PNG, get eight sizes - client-side, no server, no signup. Brutalist mono UI: input, resize ×8, export.",
     tags: ["React", "Canvas", "Tool"],
     image: "/assets/facicon.png",
     year: "2025",
@@ -174,7 +174,7 @@ export const PROJECTS: Project[] = [
     index: "06",
     title: "AlgoAnalyzer",
     blurb:
-      "A full-stack algorithm visualizer. Pick an algorithm, feed your input, and step through every operation while the exact line of code highlights in real time — in Java and C++.",
+      "A full-stack algorithm visualizer. Pick an algorithm, feed your input, and step through every operation while the exact line of code highlights in real time - in Java and C++.",
     tags: ["React", "Express", "Visualizer"],
     image: "/assets/algoanalyzer.png",
     year: "2025",
@@ -185,7 +185,7 @@ export const PROJECTS: Project[] = [
     index: "07",
     title: "SoberDev",
     blurb:
-      "An agency-grade marketing experience engineered around motion. Precision meets raw creativity — pinned scrolls, split reveals, and a deliberate type system.",
+      "An agency-grade marketing experience engineered around motion. Precision meets raw creativity - pinned scrolls, split reveals, and a deliberate type system.",
     tags: ["Next.js", "GSAP", "Motion"],
     image: "/assets/sober.png",
     year: "2025",
@@ -196,7 +196,7 @@ export const PROJECTS: Project[] = [
     index: "08",
     title: "Pi 3.14",
     blurb:
-      "\"Where Developers Orbit Innovation\" — a community landing for a developer collective. Glowing cosmic hero, animated starfield, and event-led sections inviting devs to join the orbit.",
+      "\"Where Developers Orbit Innovation\" - a community landing for a developer collective. Glowing cosmic hero, animated starfield, and event-led sections inviting devs to join the orbit.",
     tags: ["React", "Motion", "Community"],
     image: "/assets/pi.png",
     year: "2025",
@@ -207,7 +207,7 @@ export const PROJECTS: Project[] = [
     index: "09",
     title: "Amrit Place",
     blurb:
-      "\"Flavors That Stay\" — a warm, full-bleed site for an Indian restaurant. Cinematic candle-lit hero, table reservations, catering and gift cards, and a live Google-rating badge built to drive bookings.",
+      "\"Flavors That Stay\" - a warm, full-bleed site for an Indian restaurant. Cinematic candle-lit hero, table reservations, catering and gift cards, and a live Google-rating badge built to drive bookings.",
     tags: ["React", "Tailwind", "Restaurant"],
     image: "/assets/amritplace.png",
     year: "2025",
@@ -229,7 +229,7 @@ export const PROJECTS: Project[] = [
     index: "11",
     title: "Prerna",
     blurb:
-      "A polished site for Prerna Institution — NEET / JEE / NDA coaching. Calm editorial hero, course explorer, outcome stats, and trust badges over a considered information architecture.",
+      "A polished site for Prerna Institution - NEET / JEE / NDA coaching. Calm editorial hero, course explorer, outcome stats, and trust badges over a considered information architecture.",
     tags: ["React", "Node.js", "Web app"],
     image: "/assets/Prerna.png",
     year: "2024",
@@ -240,23 +240,23 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCE = [
   {
-    role: "Full-Stack Developer — Intern",
+    role: "Full-Stack Developer - Intern",
     org: "Razorse Software Pvt. Ltd.",
-    period: "May 2025 — Aug 2025",
+    period: "May 2025 - Aug 2025",
     place: "Delhi, India",
     points: [
       "Shipped features on client web applications as a Junior Software Development Intern.",
-      "Worked across the stack — translating designs into UI and wiring up the APIs behind them.",
+      "Worked across the stack - translating designs into UI and wiring up the APIs behind them.",
     ],
   },
   {
     role: "Freelance Full-Stack Developer",
     org: "Fiverr · Freelancer",
-    period: "May 2024 — Present",
+    period: "May 2024 - Present",
     place: "Delhi, India",
     points: [
       "Build complete web apps with MongoDB, Express, React, Next.js and Node.",
-      "Own the whole lifecycle — front-end UI, back-end APIs, and deployment.",
+      "Own the whole lifecycle - front-end UI, back-end APIs, and deployment.",
     ],
   },
 ];
@@ -264,7 +264,7 @@ export const EXPERIENCE = [
 export const EDUCATION = {
   degree: "Bachelor of Computer Applications (BCA)",
   org: "IME College · CCS University",
-  period: "2024 — 2027",
+  period: "2024 - 2027",
 };
 
 export const ACHIEVEMENTS = [
@@ -277,7 +277,7 @@ export const ACHIEVEMENTS = [
   {
     title: "Hackathon Lead",
     tag: "Team Lead",
-    body: "Led multiple hackathon teams as captain — guiding the build and steering each team to deserving finishes.",
+    body: "Led multiple hackathon teams as captain - guiding the build and steering each team to deserving finishes.",
     image: "/assets/profile.jpg",
   },
 ];
