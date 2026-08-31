@@ -2,19 +2,50 @@ export const SITE = {
   name: "Sahil Bajaj",
   role: "Full-Stack MERN & Python Developer",
   location: "Delhi, India",
+  url: "https://sahilbajaj.tech",
   email: "sahilbajaj2004@gmail.com",
   phone: "+91 98110 57531",
   resume: "/assets/Sahil_Bajaj_Resume.pdf",
   audio: "/assets/bgaudio.mp3",
   socials: [
     { label: "GitHub", href: "https://github.com/sahilbajaj2004" },
-    { label: "LinkedIn", href: "https://linkedin.com/in/sahilbajaj2004" },
+    { label: "LinkedIn", href: "https://www.linkedin.com/in/sahilbajaj2004" },
     { label: "Email", href: "mailto:sahilbajaj2004@gmail.com" },
   ],
 } as const;
 
+export const FAQS = [
+  {
+    q: "Who is Sahil Bajaj?",
+    a: "Sahil Bajaj is a full-stack MERN and Python developer from Delhi, India. He builds complete web applications end to end — React and Next.js front-ends, Node.js and Express APIs, Python with Django, and MongoDB/MySQL databases — through to deployment.",
+  },
+  {
+    q: "What technologies does Sahil Bajaj work with?",
+    a: "He works with JavaScript and TypeScript, React, Next.js, Node.js, Express.js, Python and Django, MongoDB, MySQL, Firebase, Docker, AWS, Tailwind CSS, Socket.io, and C++. His focus is full-stack MERN and Python development.",
+  },
+  {
+    q: "What has Sahil Bajaj built?",
+    a: "He has shipped 10+ projects, including AI developer tools like RepoSignal (a GitHub repo analyser), CodeToResume and ResumeTailor (resume builders), and TextToSQL (natural language to SQL), plus brand sites such as SoberDev and restaurant sites like Amrit Place.",
+  },
+  {
+    q: "What experience does Sahil Bajaj have?",
+    a: "Sahil worked as a Full-Stack Developer intern at Razorse Software Pvt. Ltd. and has been freelancing through Fiverr since May 2024. He also won the Bharat Shiksha Expo 2025 for an AI companion built with React, Vite, and Firebase, and leads hackathon teams.",
+  },
+  {
+    q: "Is Sahil Bajaj available for hire?",
+    a: "Yes. Sahil is open to freelance projects, internships, and full-time full-stack developer roles. You can reach him at sahilbajaj2004@gmail.com.",
+  },
+  {
+    q: "Where is Sahil Bajaj based?",
+    a: "Sahil Bajaj is based in Delhi, India, and works in the Indian Standard Time (IST) zone.",
+  },
+] as const;
+
 export const INTRO =
   "I build complete, real-world applications that actually solve problems not just run in theory. A BCA student going deep on the MERN stack and Python, shipping front-end UI to back-end APIs to deployment.";
+
+export const ABOUT =
+  "Sahil Bajaj is a full-stack MERN and Python developer based in Delhi, India, currently pursuing his Bachelor of Computer Applications (BCA) at IME College, CCS University. He owns the full lifecycle of a product — designing and building React and Next.js front-ends, writing Node.js, Express, and Django APIs, modelling data in MongoDB and MySQL, and deploying with Docker and AWS. He has shipped 10+ projects, interned as a full-stack developer at Razorse Software, freelanced through Fiverr since 2024, and won the Bharat Shiksha Expo 2025 for an AI companion.";
 
 export type Stat = {
   num?: number;

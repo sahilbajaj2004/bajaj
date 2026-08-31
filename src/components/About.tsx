@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { SKILL_GROUPS, EDUCATION } from "@/lib/data";
+import { SKILL_GROUPS, EDUCATION, ABOUT } from "@/lib/data";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -85,6 +85,29 @@ export default function About() {
             </span>
           ))}
         </p>
+
+        <p className="mt-8 max-w-3xl text-pretty text-lg leading-relaxed text-ink-soft">
+          {ABOUT}
+        </p>
+
+        {/* focus area chips */}
+        <div className="mt-8 flex flex-wrap gap-2">
+          {[
+            "Full-Stack Development",
+            "MERN Stack",
+            "Next.js",
+            "Python / Django",
+            "REST & API Design",
+            "Cloud Deployment",
+          ].map((c) => (
+            <span
+              key={c}
+              className="rounded-full border border-line px-4 py-1.5 font-mono text-xs uppercase tracking-wider text-ink-soft"
+            >
+              {c}
+            </span>
+          ))}
+        </div>
 
         {/* skills + education */}
         <div className="skill-grid mt-20 grid grid-cols-1 gap-x-12 gap-y-12 md:grid-cols-2 lg:grid-cols-4">
